@@ -14,9 +14,9 @@ int main()
     int t[n+1][m+1];
 
     // base condition or initialization
-    for(int i=0;i<m;i++)
+    for(int i=0;i<=m;i++)
         t[0][i] =0;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<=n;i++)
         t[i][0] = 0;
 
     //code
